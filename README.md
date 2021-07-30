@@ -38,7 +38,7 @@ Snipers are created by other community members with expertise in coding language
 
 ## V. Types of snipers
 
-Snipers can be paid or free. The two recommended free snipers, Smart-Sniper and MCSniperPY, are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. I won't go into too much how the best snipers are functioning as that isn't the objective of this guide.
+Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. I won't go into too much how the best snipers are functioning as that isn't the objective of this guide.
 
 ## VI. Sniping as a User
  
