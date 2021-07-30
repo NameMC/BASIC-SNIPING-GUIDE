@@ -1,6 +1,9 @@
-# Sniping-guide
+## Basic Guide for Sniping (Beginners)
 This is a guide for beginners on Minecraft name sniping, written by yours truly, unslow.
-A name sniper is a program written in a computer language which attempts to "snipe" a name the instant it becomes freed up from the previous owner
+
+A name sniper is a program written in a computer language which attempts to "snipe" a name the instant it becomes freed up from the previous owner. Not to be confused with actual gun snipers. 
+
+This guide covers the most essential and fundamental topics beginners should be know before / during sniping.
 
 -------------------------------------------
 
