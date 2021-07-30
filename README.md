@@ -56,19 +56,19 @@ So how does the sniper work, from a user's perspective? Well, you put in the acc
 There are a few factors in sniping: accounts in use, your delay / timing, and luck. Usually suppling more accounts and bettering your timing will outweigh your luck, meaning you have a much higher chance at being successful. 
 Number of accounts is self explanatory. More accounts, more requests, higher probability.
 
-Delay is a system where you enter how many milliseconds off the droptime you want it to start sending requests. For example, someone has 0 ping so the requests (with 0 delay) would normally send at xx:xx:xx.000000. 
-If we were to work off the example above with JohnSmith, the name becomes available at 3:24:19 PM. Your sniper would normally send requests are that exact time, 3:24:19.0000. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe (for being too early) if your delay is 0. 
-Most snipers advise getting timestamps with xx.095 - xx.100 as they seem to have the greatest likelihood of success. 
+Delay is a system where you enter how many milliseconds off the droptime you want it to start sending requests. For example, someone has 0 ping so the requests (with 0 delay) would normally send at `xx:xx:xx.000000`. 
+If we were to work off the example above with JohnSmith, the name becomes available at 3:24:19 PM. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe (for being too early) if your delay is 0. 
+Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. 
 
 ## VIII. Delay
 
 So if we want to dive into delay deeper, first I have to explain time stamps; the most fundamental mechanic of delay, as it is the foundation for what changes you make to your delay in order to perfect it.
-Using the aforementioned example again, lets say your requests land at 3:24:19.230 and 3:24:19.300
-As you want to have them land at 3:24:19.095 and 3:24:19.100, you will need to increase your delay here so the sniper shoots sooner.
+Using the aforementioned example again, lets say your requests land at `3:24:19.230` and `3:24:19.300`
+As you want to have them land at `3:24:19.095` and `3:24:19.100`, you will need to increase your delay here so the sniper shoots sooner.
 First let's zoom up and disregard any numbers which aren't necessary for calculating the optimal delay change for this situation:
-(The two requests sent) ...19.230 ...19.300
-You are ~130 milliseconds off the best timestamp range with the first request. The second request is ~200 milliseconds off. It may be best to change according to the second one, so your second request lands at ...19.100 with the first sometime before that.
-Add 200 delay. If your delay before was, for example, 129, just use 329 delay on your next snipe.
+(The two requests sent) `...19.230` `...19.300`
+You are **~130 milliseconds** off the best timestamp range with the first request. The second request is **~200 milliseconds** off. It may be best to change according to the second one, so your second request lands at `...19.100` with the first sometime before that.
+Add `200` delay. If your delay before was, for example, `129`, adjust to `329` delay on your next snipe.
 After that, analyze the results. Were they closer to the recommended timestamps? How far, if not precisely on it? Make more changes until your timestamps are on target, or, until you notice you successfully sniping names at another timestamp.
 
 ## IX. Time synchronization
@@ -80,6 +80,7 @@ Another way to make your timestamps accurate is by using a time synchronization 
 In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
 |What it means | What is usually said instead |
 | -------------| ---------------------------|
+|NFA | Non-full access|
 |Semi-full access account| SFA |
 | Full access account | FA |
 | Mail full access account | MFA |
@@ -87,6 +88,12 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | Account with no name set, blank name, giftcard| GC|
 | Little kids with no coding knowledge who steal other snipers, change it, and claim ownership of it. Basically, stupid. | Skid | 
 | The time at which a username is available, after the 37 day period of waiting | Droptime |
+
+Now I will explain what each of these is used for in particular.
+
+**SFA** - Semi-full access account. The name comes from the amount of access you have to it; not very much. You only have the credentials for the Minecraft account, but no access to the email tied to the account. Because you require email access to change the email and add security questions, it's locked on the email which it's currently on.
+
+SFAs are usually frowned upon as they are (usually) obtained from unorthodox methods, and are used solely for practicing / testing delay and other stuff. Typically, if they are used when trying to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
 
 ## XI. Conclusion
 
