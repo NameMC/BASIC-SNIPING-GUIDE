@@ -16,16 +16,16 @@ JohnSmith2 7/30/2021 @ 3:24:19 PM
 JohnSmith (First name)
 ```
 
-The data is generally in unix time format but I'm too lazy to convert the time for this example
+The data is generally in unix time format. 3:24:19 PM would be stored as `1627683859`
 
-So the API has the information when the person changed their name. Then, NameMC detects this change and automatically assumes the username will be available 37 days from the original name change. 30 days to account for the user's name change cooldown, and 7 days for the grace period the name is available for the previous owner only.
+So the Mojang API has the information when the person changed their name. Then, NameMC detects this change and automatically assumes the username will be available 37 days from the original name change. 30 days to account for the user's name change cooldown, and 7 days for the grace period the name is available for the previous owner only.
 
-I'm not aware what API snipers are basing their times off of at the moment, but all data regarding the time the name was changed usually originates from Mojang's API.
+Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time. 
 
 ## II. Introduction
 
 A sniper, or sniping program, sends "name change" requests as soon as the name is available.
-These name change requests are the same things you send when you press the name change button on Minecraft.net. The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
+These name change requests are the same things you send when you press the name change button on minecraft.net. The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
 
 ## III. Benefits
 
@@ -41,7 +41,12 @@ Snipers are created by other community members with expertise in coding language
 
 ## V. Types of snipers
 
-Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. I won't go into too much how the best snipers are functioning as that isn't the objective of this guide.
+Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. 
+
+Most experienced snipers use Minecraft giftcards (abbreviated as `GCs`) to snipe. `GCs` have the capability of sending 6 name change requests instead of 2 (which is the standard for any regular Mojang or Microsoft account.)
+Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers then require less accounts for a greater chance of beating others. Furthermore, giftcards have their own endpoint, so their name change requests are priotized over Mojang and Microsoft accounts.*
+
+**Subject to confirmation and revision*
 
 ## VI. Sniping as a User
  
