@@ -11,7 +11,10 @@ This guide covers the most essential and fundamental topics beginners should be 
 
 After a person changes their name, the API stores the exact time the user changed to a different username. For example:
 
-JohnSmith - First name ----> (Changes to) JohnSmith2 @ 3:24:19 PM
+```sh
+JohnSmith2 7/30/2021 @ 3:24:19 PM
+JohnSmith (First name)
+```
 
 The data is generally in unix time format but I'm too lazy to convert the time for this example
 
