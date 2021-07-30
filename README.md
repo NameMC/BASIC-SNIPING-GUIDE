@@ -74,7 +74,21 @@ After that, analyze the results. Were they closer to the recommended timestamps?
 ## IX. Time synchronization
 
 Another way to make your timestamps accurate is by using a time synchronization program. This sets your computer's clock to the closest time possible to xx.000. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. What I mean is; normally if you use, say, 300 delay- sometimes you may get timestamps on xx.218 and other times on xx.113. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as Dimension 4, your timestamps with 300 delay will usually if not always be the same... such as xx.113 (every time) in this example.
-## X. Conclusion
+
+## X. Sniping jargon
+
+In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
+|What it means | What is usually said instead |
+| -------------| ---------------------------|
+|Semi-full access account| SFA |
+| Full access account | FA |
+| Mail full access account | MFA |
+| Unmigrated full access account | UFA |
+| Account with no name set, blank name, giftcard| GC|
+| Little kids with no coding knowledge who steal other snipers, change it, and claim ownership of it. Basically, stupid. | Skid | 
+| The time at which a username is available, after the 37 day period of waiting | Droptime |
+
+## XI. Conclusion
 
 As described throughout this introductory statement, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
 Don't hesitate to reach out to other server members in sniping servers. Some may be willing to help you.
