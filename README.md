@@ -25,7 +25,7 @@ Most snipers locate the drop time for a name via NameMC's API. In some cases tho
 ## II. Introduction
 
 A sniper, or sniping program, sends "name change" requests as soon as the name is available.
-These name change requests are the same things you send when you press the name change button on minecraft.net. The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
+These name change requests are the same things you send when you press the name change button on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
 
 ## III. Benefits
 
@@ -75,7 +75,7 @@ After that, analyze the results. Were they closer to the recommended timestamps?
 
 Another way to make your timestamps accurate is by using a time synchronization program. This sets your computer's clock to the closest time possible to xx.000. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. What I mean is; normally if you use, say, 300 delay- sometimes you may get timestamps on xx.218 and other times on xx.113. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as Dimension 4, your timestamps with 300 delay will usually if not always be the same... such as xx.113 (every time) in this example.
 
-## X. Sniping jargon
+## X. Sniping Jargon
 
 In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
 |What it means | What is usually said instead |
@@ -86,14 +86,22 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | Mail full access account | MFA |
 | Unmigrated full access account | UFA |
 | Account with no name set, blank name, giftcard| GC|
+| Microsoft account| MSA |
 | Little kids with no coding knowledge who steal other snipers, change it, and claim ownership of it. Basically, stupid. | Skid | 
-| The time at which a username is available, after the 37 day period of waiting | Droptime |
+| The time at which a username is available, after the 37 day period of waiting | Droptime / Drop |
 
 Now I will explain what each of these is used for in particular.
 
+**NFA** - Non-full access account. These are useless, not worth mentioning. Only have credentials to Minecraft account, but the account has security questions which prevent you from accessing the name change page. Only allows you to log in through the launcher.
+
 **SFA** - Semi-full access account. The name comes from the amount of access you have to it; not very much. You only have the credentials for the Minecraft account, but no access to the email tied to the account. Because you require email access to change the email and add security questions, it's locked on the email which it's currently on.
 
-SFAs are usually frowned upon as they are (usually) obtained from unorthodox methods, and are used solely for practicing / testing delay and other stuff. Typically, if they are used when trying to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
+SFAs are often frowned upon as they are (usually) obtained from unorthodox methods, and are used solely for practicing / testing delay and other stuff. Typically, if they are used when trying to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
+
+**FA / MFA** - Mail / Full access account. FA and MFA can be used interchangeably as it simply indicates you have full access to the account. Just a normal account, can be a Mojang account or Microsoft. MFAs can be acquired from unconventional places, or via the official [minecraft.net](minecraft.net/en_us/) website. 
+
+**UFA** - Unmigrated full access. These accounts are from long back, as far back as perhaps **2009 - 2010**. In the first Minecraft migration (not the current one from Mojang -> Microsoft) players were asked to migrate their Minecraft account to a Mojang account. Some of these old accounts haven't been migrated yet. Functions mostly like a normal MFA account.
+> Do note I have little knowledge or experience about UFAs so this is subject to change.
 
 ## XI. Conclusion
 
