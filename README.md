@@ -99,7 +99,7 @@ Let me clarify what I mean here. In this example, let's say you use **300** dela
 
 # **X. Sniping with Multiple Accounts**
 
-If you're starting to become a more serious sniper, using more than 1 account is essential for higher success rates. If you want to learn more about how to snipe with more than 1 account, be sure to read my [guide on how to snipe with more than 1 account](https://youtu.be/dQw4w9WgXcQ).
+If you're starting to become a more serious sniper, using more than 1 account is essential for higher success rates. If you want to learn more about how to snipe with more than 1 account, be sure to read my [guide on how to snipe with more than 1 account](https://github.com/NameMC/MULTIPLE-ACCOUNT-SNIPING).
 More accounts allow you to send more name change requests to the server. Your probability of success will be much higher.
 
 # **XI. Sniping Jargon**
