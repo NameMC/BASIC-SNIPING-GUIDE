@@ -32,18 +32,18 @@ The data is generally in unix time format. `July 30th, 2021 @ 3:24:19 PM` would 
 
 The Mojang API has the exact time a person changes their name. NameMC then detects this change and automatically assumes the username will be available 37 days after the original name change. 30 days to account for the user's name change cooldown, then an additional 7 days for the owner to decide whether they want to reclaim the name or to discard it.
 
-Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time which some snipers utilize.
+Most snipers locate the drop time for a name via scraping NameMC through droptime APIs.
 
 # **II. Introduction**
 
-A sniper, or sniping program, sends "name change" requests as soon as the name is available.
-These name change requests match the ones you send when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) when exactly the requests were received by Mojang's servers.
+A sniper, or sniping program, sends [name change](https://mojang-api-docs.netlify.app/needs-auth/change-name.html) requests as soon as the name is available.
+These name change are the same as when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) of when the requests were sent and then received by Mojang's servers.
 
-# **III. Benefits**
+# **III. Benifits of a sniping program**
 
  Here are the advantages you gain from using an automated sniping program:
 
-- Timestamps of when the requests were received by Mojang's servers.
+- Timestamps of when the requests were sent and then received by Mojang's servers.
 - Ability to send more requests in a shorter time span than other methods
 - Allows you to use more than 1 account per snipe
 - The sniper will continue to snipe even if you aren't around, or even awake. All that's necessary is keeping your device online.
@@ -117,8 +117,9 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | Full access account | FA |
 | Mail full access account | MFA |
 | Unmigrated full access account | UFA |
-| Giftcard| GC|
-| Microsoft account| MSA |
+| Giftcard (can refer to prename sniping)| GC|
+| Microsoft account / Microsoft authentication| MSA |
+| Sniping onto a brand new account (has more requests than normal sniping)|prename sniping| 
 | The time at which a username is available, after the 37 day period of waiting | Droptime / Drop |
 -------------
 
@@ -167,7 +168,7 @@ The following list gives an entire explanation of each term and includes example
 ``` 
 - SFA accounts have more access than NFAs but less than MFAs. You only have the credentials for the Minecraft account, but no access to the email tied to the account. You require email access to add security questions. Since you need security questions enabled on your account to change the email, it's locked on the email that it's currently on. 
 
-- SFAs are often frowned upon as they are (usually) obtained from unorthodox methods and used maliciously. They are mostly used for testing delay, but may sometimes be used in serious sniping. Some people use upwards of 15 SFAs each snipe, usually yielding success. The name is wasted as SFAs are usually stolen accounts, so the sniper isn't able to ensure the name stays on the account it was sniped on. The original owner often switches their name off the one which was sniped. 
+- SFAs are often frowned upon as they are (almost always) obtained through somewhat illegal methods and used maliciously. They are mostly used for testing delay, but may sometimes be used in serious sniping. Some people use upwards of 15 SFAs each snipe, usually yielding success. The name is wasted as SFAs are usually stolen accounts, so the sniper isn't able to ensure the name stays on the account it was sniped on. The original owner often switches their name off the one which was sniped. 
 - Sometimes SFAs aren't stolen, and are instead a result of poor management of credentials by a user. For example, you forgot the password to your email and are unable to recover it or prove your ownership. The only access you have is to your Minecraft account but not your email. In this situation you have an SFA which wasn't stolen.
 
 **Example:**
