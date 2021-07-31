@@ -14,7 +14,7 @@ This is a guide for beginners on Minecraft name sniping, written by yours truly,
 
 A name sniper is a program written in a computer language which attempts to "snipe" a name the instant it becomes freed up from the previous owner. Not to be confused with actual gun snipers. 
 
-This guide covers the most essential and fundamental topics beginners should be know before / during sniping.
+This guide covers the most essential and fundamental topics beginners should know before / during sniping.
 
 -------------------------------------------
 
@@ -109,7 +109,7 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | -------------| ---------------------------|
 |`**MORE INFORMATION BELOW**`| Snipe |
 |`**MORE INFORMATION BELOW**`| Sniper |
-|NFA | Non-full access|
+|Non-full access | NFA|
 |Semi-full access account| SFA |
 | Full access account | FA |
 | Mail full access account | MFA |
