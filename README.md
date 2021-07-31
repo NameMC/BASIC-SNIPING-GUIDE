@@ -12,7 +12,7 @@
 
 This is a guide for beginners on Minecraft name sniping, written by yours truly, unslow.
 
-A name sniper is a program written in a computer language which attempts to "snipe" a name the instant it becomes freed up from the previous owner. Not to be confused with actual gun snipers. 
+A name sniper is a program written in a computer language which attempts to claim a name the instant it becomes freed up from the previous owner. 
 
 This guide covers the most essential and fundamental topics beginners should know before / during sniping.
 
@@ -28,53 +28,54 @@ JohnSmith2 7/30/2021 @ 3:24:19 PM
 JohnSmith (First name)
 ```
 
-The data is generally in unix time format. 3:24:19 PM would be stored as `1627683859`
+The data is generally in unix time format. `July 30th, 2021 @ 3:24:19 PM` would be stored as `1627683859`
 
-The Mojang API has the exact time a person changes their name. NameMC then detects this change and automatically assumes the username will be available 37 days after the original name change. 30 days to account for the user's name change cooldown, then an addition 7 days for the owner to decide whether they want to reclaim the name or to discard it.
+The Mojang API has the exact time a person changes their name. NameMC then detects this change and automatically assumes the username will be available 37 days after the original name change. 30 days to account for the user's name change cooldown, then an additional 7 days for the owner to decide whether they want to reclaim the name or to discard it.
 
-Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time. 
+Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time which some snipers utilize.
 
 # **II. Introduction**
 
 A sniper, or sniping program, sends "name change" requests as soon as the name is available.
-These name change requests are the same things you send when you press the name change button on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
+These name change requests match the ones you send when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) when exactly the requests were received by Mojang's servers.
 
 # **III. Benefits**
 
  Here are the advantages you gain from using an automated sniping program:
 
-- Feedback on the time the requests were registered 
-- Ability to send more requests in a shorter time span than was previously available (hand sniping)
-- Ability to use more than 1 account per snipe, which provides you a ginormous advantage if supplied with great amounts
-- Automation; the sniper will still snipe even if you aren't around, or even awake. You can rely on it doing the job for you so you don't have to wake up an 3 AM just to attempt a snipe.
+- Timestamps of when the requests were received by Mojang's servers.
+- Ability to send more requests in a shorter time span than other methods
+- Allows you to use more than 1 account per snipe
+- The sniper will continue to snipe even if you aren't around, or even awake. All that's necessary is keeping your device online.
 
 # **IV. Credibility**
  
-Snipers are created by other community members with expertise in coding languages. They are constantly updating the snipers, so errors and other complications minimize over time. You can trust their works as the source code is made public, so you're aware of every bit of the machine you're using. In addition, the sniping community has garnered thousands of people in its lifetime, all of which are able to prove the credibility of the sniper
+Snipers are created by Minecraft sniping community members with expertise in coding languages. They are constantly updating the snipers, so errors and other complications are decreasing over time. You can trust their works as the source code is made public, so you're aware of every bit of the machine you're using. In addition, the sniping community has garnered thousands of people in its lifetime, all of which are able to prove the credibility of the sniper and its creator. 
 
 # **V. Types of Snipers**
 
-Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. 
+Snipers can be paid or free. The two recommended free snipers, [MCSniperPY](https://mcsniperpy.com) and [Smart-Sniper](https://github.com/snipesmarter/smart-sniper), are wonderful snipers to begin with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you're much more experienced at sniping, using a great amount of accounts with a paid sniper will allow you to snipe highly sought-after names. 
 
 > If  you want to learn more about how to use a specific sniper listed here, the links above have instructions. 
-> I do not take credit for any of the snipers listed here. I did not develop nor assist in the creation of them. All credits > go to their rightful owners. I encourage you to check them out!
+> I do not take credit for any of the snipers listed here. I did not develop nor assist in the creation of them. All credits go to their rightful owners. I encourage you to check them out!
 
-Most experienced snipers use Minecraft giftcards (abbreviated as `GCs`) to snipe. `GCs` have the capability of sending 6 name change requests instead of 2 (which is the standard for any regular Mojang or Microsoft account.)
-Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers then require less accounts for a greater chance of beating others. Furthermore, giftcards have their own endpoint, so their name change requests are priotized over Mojang and Microsoft accounts.*
+Most proficient snipers use Minecraft giftcards (hereinafter referred to as `GCs`) to snipe. `GCs` have the capability of sending 6 name change requests instead of 2, which is the standard for any regular Mojang or Microsoft account.
+Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers using them require less accounts for a higher chance of beating others. Furthermore, giftcards have their own endpoint, so their name change requests are priotized over Mojang and Microsoft accounts.*
 
 **Subject to confirmation and revision*
 
 # **VI. Sniping**
  
-So how does the sniper work, from a user's perspective? Well, you put in the account credentials to the account(s) you want to use, it fetches the authorization token, which allows it the permission to change your username. Then, you input the name you want to snipe, the delay (which will be covered later on) you want to use, and in some snipers, you are able to select what account type you are using (Mojang, Microsoft, Giftcard, etc.)
+So how does the sniper work, from a user's perspective? Well, you put in the account credentials to the account(s) you want to use, it fetches the authorization token allowing it the permission to change your username. Then, you input the name you want to snipe, the delay (which will be covered later on) you want to use, and in some snipers, you are able to select what account type you are using (Mojang, Microsoft, Giftcard, etc.)
+The account credentials may be allocated in a supplied text file, or may otherwise be supplied by the user directly in the terminal.
 # **VII. Factors in Sniping**
  
-There are a few factors in sniping: accounts in use, your delay / timing, and luck. Usually suppling more accounts and bettering your timing will outweigh your luck, meaning you have a much higher chance at being successful. 
+There are a few factors in sniping: accounts in use, your delay / timing, and luck. Usually supplying more accounts and improving your timing will override your luck, meaning you have a much higher chance at being successful. 
 Number of accounts is self explanatory. More accounts, more requests, higher probability.
 
 Delay is a system where you enter how many milliseconds off the droptime you want it to start sending requests. For example, someone has 0 ping so the requests (with 0 delay) would normally send at `xx:xx:xx.000000`. 
-If we were to work off the example above with JohnSmith, the name becomes available at 3:24:19 PM. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe (for being too early) if your delay is 0. 
-Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. 
+If we were to work off the example above with JohnSmith, the name becomes available at **3:24:19 PM**. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe for being too early if your delay is 0. 
+Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. So if your requests do not match, procedures can be taken to adjust it until it does.
 
 # **VIII. Delay**
 
