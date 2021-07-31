@@ -1,4 +1,4 @@
-## Basic Guide for Sniping (Beginners)
+# `Basic Guide for Sniping (Beginners)`
 
 This is a guide for beginners on Minecraft name sniping, written by yours truly, unslow.
 
@@ -8,12 +8,13 @@ This guide covers the most essential and fundamental topics beginners should be 
 
 -------------------------------------------
 
-## I. Name Changes
+# `I. Name Changes: Behind the Scenes`
 
 After a person changes their name, the API stores the exact time the user changed to a different username. For example:
 
 ```sh
 JohnSmith2 7/30/2021 @ 3:24:19 PM
+-----------------------------------
 JohnSmith (First name)
 ```
 
@@ -23,12 +24,12 @@ So the Mojang API has the information when the person changed their name. Then, 
 
 Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time. 
 
-## II. Introduction
+# `II. Introduction`
 
 A sniper, or sniping program, sends "name change" requests as soon as the name is available.
 These name change requests are the same things you send when you press the name change button on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (time stamps) when exactly the requests were received.
 
-## III. Benefits
+# `III. Benefits`
 
  Here are the advantages you gain from using an automated sniping program:
 
@@ -36,11 +37,11 @@ These name change requests are the same things you send when you press the name 
 - Ability to send more requests in a shorter time span than was previously available (hand sniping)
 - Ability to use more than 1 account per snipe, which provides you a ginormous advantage if supplied with great amounts
 - Automation; the sniper will still snipe even if you aren't around, or even awake. You can rely on it doing the job for you so you don't have to wake up an 3 AM just to attempt a snipe.
-## IV. Credibility
+# `IV. Credibility`
  
 Snipers are created by other community members with expertise in coding languages. They are constantly updating the snipers, so errors and other complications minimize over time. You can trust their works as the source code is made public, so you're aware of every bit of the machine you're using. In addition, the sniping community has garnered thousands of people in its lifetime, all of which are able to prove the credibility of the sniper
 
-## V. Types of Snipers
+# `V. Types of Snipers`
 
 Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. 
 
@@ -52,10 +53,10 @@ Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers then 
 
 **Subject to confirmation and revision*
 
-## VI. Sniping as a User
+# `VI. Sniping`
  
 So how does the sniper work, from a user's perspective? Well, you put in the account credentials to the account(s) you want to use, it fetches the authorization token, which allows it the permission to change your username. Then, you input the name you want to snipe, the delay (which will be covered later on) you want to use, and in some snipers, you are able to select what account type you are using (Mojang, Microsoft, Giftcard, etc.)
-## VII. Factors in Sniping
+# `VII. Factors in Sniping`
  
 There are a few factors in sniping: accounts in use, your delay / timing, and luck. Usually suppling more accounts and bettering your timing will outweigh your luck, meaning you have a much higher chance at being successful. 
 Number of accounts is self explanatory. More accounts, more requests, higher probability.
@@ -64,7 +65,7 @@ Delay is a system where you enter how many milliseconds off the droptime you wan
 If we were to work off the example above with JohnSmith, the name becomes available at 3:24:19 PM. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe (for being too early) if your delay is 0. 
 Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. 
 
-## VIII. Delay
+# `VIII. Delay`
 
 Let me elaborate what delay really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it is the foundation for what changes you make to your delay in order to perfect it.
 
@@ -79,18 +80,18 @@ Add **200** delay. If your delay before was (for example) **129**, adjust to **3
 Snipe again with your new delay.
 After that, analyze the results. Were they closer to the recommended timestamps? How far, if not precisely on it? Make more changes until your timestamps are on target, or, until you notice you successfully sniping names at another timestamp.
 
-## IX. Time Synchronization
+# `IX. Time Synchronization`
 
 Another way to make your timestamps more accurate is by using a time synchronization program. This sets your computer's clock to the closest to `.0000`. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. 
 
 Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` every time you used **300** delay.
 
-## X. Sniping with Multiple Accounts
+# `X. Sniping with Multiple Accounts`
 
 If you're starting to become a more serious sniper, using more than 1 account is essential for higher success rates. If you want to learn more about how to snipe with more than 1 account, be sure to read my [guide on how to snipe with more than 1 account](https://youtu.be/dQw4w9WgXcQ).
 More accounts allow you to send more name change requests to the server. Your probability of success will be much higher.
 
-## XI. Sniping Jargon
+# `XI. Sniping Jargon`
 
 In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
 |What it means | What is usually said instead |
@@ -203,7 +204,7 @@ Now I will explain what each of these is used for in particular.
  | |Have name change priority `* UNCONFIRMED`| 
 
 **Example:**
->  I used 2 `GCs` to snipe "TissueBox"
+>  I used 2 `GCs` to snipe the name "TissueBox"
 
 ᲼᲼᲼᲼᲼᲼
 
@@ -232,9 +233,9 @@ Now I will explain what each of these is used for in particular.
 
 -------------
 
-## XII. Conclusion
+# `XII. Conclusion`
 
 As described throughout this guide, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
-Don't hesitate to reach out to other server members in sniping servers. Some may be willing to help you.
-If you don't want to commit yourself to sniping, there is no urgency to do so. You can try hand-sniping still, however, it will likely yield less results than using an automated bot.
+Don't hesitate to reach out to other server members in sniping servers, some may be willing to help you.
+If you don't want to commit yourself to sniping, there is no urgency to do so. You can continue hand-sniping, however, it will likely yield less results than using an automated bot.
 Lastly, I hope you have an amazing time sniping and wish you luck along your journey!
