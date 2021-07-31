@@ -37,7 +37,7 @@ Most snipers locate the drop time for a name via scraping NameMC through droptim
 # **II. Introduction**
 
 A sniper, or sniping program, sends [name change](https://mojang-api-docs.netlify.app/needs-auth/change-name.html) requests as soon as the name is available.
-These name change are the same as when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) of when the requests were sent and then received by Mojang's servers.
+These name change requests are the same as when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) of when the requests were sent and then received by Mojang's servers.
 
 # **III. Benifits of a sniping program**
 
