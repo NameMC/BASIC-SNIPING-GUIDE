@@ -1,4 +1,5 @@
 ## Basic Guide for Sniping (Beginners)
+
 This is a guide for beginners on Minecraft name sniping, written by yours truly, unslow.
 
 A name sniper is a program written in a computer language which attempts to "snipe" a name the instant it becomes freed up from the previous owner. Not to be confused with actual gun snipers. 
@@ -43,6 +44,9 @@ Snipers are created by other community members with expertise in coding language
 
 Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. 
 
+> If  you want to learn more about how to use a specific sniper listed here, the links above have instructions. 
+> I do not take credit for any of the snipers listed here. I did not develop nor assist in the creation of them. All credits > go to their rightful owners. I encourage you to check them out!
+
 Most experienced snipers use Minecraft giftcards (abbreviated as `GCs`) to snipe. `GCs` have the capability of sending 6 name change requests instead of 2 (which is the standard for any regular Mojang or Microsoft account.)
 Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers then require less accounts for a greater chance of beating others. Furthermore, giftcards have their own endpoint, so their name change requests are priotized over Mojang and Microsoft accounts.*
 
@@ -75,7 +79,12 @@ After that, analyze the results. Were they closer to the recommended timestamps?
 
 Another way to make your timestamps accurate is by using a time synchronization program. This sets your computer's clock to the closest time possible to xx.000. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. What I mean is; normally if you use, say, 300 delay- sometimes you may get timestamps on xx.218 and other times on xx.113. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as Dimension 4, your timestamps with 300 delay will usually if not always be the same... such as xx.113 (every time) in this example.
 
-## X. Sniping Jargon
+## X. Sniping with Multiple Accounts
+
+If you're starting to become a more serious sniper, using more than 1 account is essential for higher success rates. If you want to learn more about how to snipe with more than 1 account, be sure to read my [guide on how to snipe with more than 1 account](https://youtu.be/dQw4w9WgXcQ).
+More accounts allow you to send more name change requests to the server. Your probability of success is much higher.
+
+## XI. Sniping Jargon
 
 In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
 |What it means | What is usually said instead |
@@ -165,9 +174,26 @@ Example:
 
 -------------
 
-## XI. Conclusion
+**MSA** - Microsoft account. A Microsoft account with a redeemed copy of Minecraft with a username already established. Basically an MFA with more security, because Microsoft has 2FA availability.
 
-As described throughout this introductory statement, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
+Example:
+> I'm hoping I can migrate my Mojang accounts to MSAs soon, I want to secure them properly.
+
+᲼᲼᲼᲼᲼᲼
+
+-------------
+
+**Skid** - Enough said.
+Example:
+> That's the skid who stole my sniper! 
+
+᲼᲼᲼᲼᲼᲼
+
+-------------
+
+## XII. Conclusion
+
+As described throughout this guide, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
 Don't hesitate to reach out to other server members in sniping servers. Some may be willing to help you.
-If you don't want to commit yourself to sniping, there is no urgency to do so. You can try hand-sniping still, but I will warn you it will likely yield little results.
-All in all I hope you have an amazing time sniping and wish you luck along your journey!
+If you don't want to commit yourself to sniping, there is no urgency to do so. You can try hand-sniping still, however, it will likely yield less results than using an automated bot.
+Lastly, I hope you have an amazing time sniping and wish you luck along your journey!
