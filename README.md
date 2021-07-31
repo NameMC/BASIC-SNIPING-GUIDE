@@ -41,7 +41,7 @@ These name change requests are the same as when you change your name on [minecra
 
 # **III. Benifits of a sniping program**
 
- Here are the advantages you gain from using an automated sniping program:
+Here are the advantages you gain from using an automated sniping program:
 
 - Timestamps of when the requests were sent and then received by Mojang's servers.
 - Ability to send more requests in a shorter time span than other methods
@@ -77,9 +77,9 @@ Delay is a system where you enter how many milliseconds off the droptime you wan
 If we were to work off the example above with JohnSmith, the name becomes available at **3:24:19 PM**. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe for being too early if your delay is 0. 
 Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. So if your requests do not match, procedures can be taken to adjust it until it does.
 
-# **VIII. Delay**
+# **VIII. Delay (or offset)**
 
-Let me elaborate on what delay really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it's the guide for what changes you should make to your delay in order to perfect it.
+Let me elaborate on what delay, also known as offset, really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it's the guide for what changes you should make to your delay in order to perfect it.
 
 Using the aforementioned example again, lets say your requests land at `3:24:19.230` and `3:24:19.300`
 As you want to have them land at `3:24:19.095` and `3:24:19.100`, you will need to increase your delay here so the sniper shoots sooner.
