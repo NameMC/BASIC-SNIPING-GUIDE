@@ -39,7 +39,7 @@ Most snipers locate the drop time for a name via scraping NameMC through droptim
 A sniper, or sniping program, sends [name change](https://mojang-api-docs.netlify.app/needs-auth/change-name.html) requests as soon as the name is available.
 These name change requests are the same as when you change your name on [minecraft.net](https://www.minecraft.net/en-us). The only difference is the bot does it much more precisely than a human can, sends 2 requests instead of one, and sends feedback (timestamps) of when the requests were sent and then received by Mojang's servers.
 
-# **III. Benifits of a sniping program**
+# **III. Benifits of a Sniping Program**
 
 Here are the advantages you gain from using an automated sniping program:
 
@@ -77,7 +77,7 @@ Delay is a system where you enter how many milliseconds off the droptime you wan
 If we were to work off the example above with JohnSmith, the name becomes available at **3:24:19 PM**. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe for being too early if your delay is 0. 
 Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. So if your requests do not match, procedures can be taken to adjust it until it does.
 
-# **VIII. Delay (or offset)**
+# **VIII. Delay (or Offset)**
 
 Let me elaborate on what delay, also known as offset, really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it's the guide for what changes you should make to your delay in order to perfect it.
 
@@ -118,8 +118,8 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | Mail full access account | MFA |
 | Unmigrated full access account | UFA |
 | Giftcard (can refer to prename sniping)| GC|
-| Microsoft account / Microsoft authentication| MSA |
-| Sniping onto a brand new account (has more requests than normal sniping)|prename sniping| 
+| Microsoft account / Microsoft Authentication| MSA |
+| Sniping onto a brand new account (has more requests than normal sniping)|Prename sniping| 
 | The time at which a username is available, after the 37 day period of waiting | Droptime / Drop |
 -------------
 
