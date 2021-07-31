@@ -230,6 +230,7 @@ The following list gives an entire explanation of each term and includes example
 * Abbreviation - Microsoft account
 ``` 
 - A Microsoft account with a redeemed copy of Minecraft and a username already established. Basically an MFA with more security, because Microsoft has 2FA availability.
+- Can also mean "Microsoft Authentication", which is a feature snipers have been implementing. This allows you to use Microsoft accounts for sniping, whereas previously Mojang accounts were the only ones possible to use.
 
 **Example:**
 > I'm hoping I can migrate my Mojang accounts to MSAs soon, I want to secure them with two-factor authentication.
@@ -243,6 +244,16 @@ The following list gives an entire explanation of each term and includes example
 
 **Example:**
 > The name "wow" drops on `August 4th, 2021 @ 3:18:11 PM, PST`
+
+᲼᲼᲼᲼᲼᲼
+
+-------------
+
+### **Prename Sniping**
+- Prename sniping, also called giftcard sniping, is an advantageous sniping practice which allows you to send 6 name change requests for each account. MFAs are able to send a maximum of 2 name change requests. On the other hand, prename sniping allows up to 6 name change requests because a [different name change endpoint](https://mojang-api-docs.netlify.app/needs-auth/create-profile.html) is used. 
+
+**Example:**
+> Prename Sniping has the greatest efficacy of any sniping method available. However, it's very costly to initiate; it depends on Minecraft giftcards or a fresh edition of Minecraft every snipe, which is $26.95 USD.
 
 ᲼᲼᲼᲼᲼᲼
 
