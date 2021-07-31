@@ -40,7 +40,7 @@ These name change requests are the same things you send when you press the name 
  
 Snipers are created by other community members with expertise in coding languages. They are constantly updating the snipers, so errors and other complications minimize over time. You can trust their works as the source code is made public, so you're aware of every bit of the machine you're using. In addition, the sniping community has garnered thousands of people in its lifetime, all of which are able to prove the credibility of the sniper
 
-## V. Types of snipers
+## V. Types of Snipers
 
 Snipers can be paid or free. The two recommended free snipers, [Smart-Sniper](https://github.com/snipesmarter/smart-sniper) and [MCSniperPY](https://mcsniperpy.com), are amazing snipers to begin your journey with; a large supportive community, constant updates, and a consistent bot allowing you to perfect your delay. Once you are much more experienced at sniping, using larger amounts of accounts with a paid sniper will allow you to snipe highly sough-after names. 
 
@@ -55,7 +55,7 @@ Because of this, 1 `GC` equates to 3 regular accounts. Experienced snipers then 
 ## VI. Sniping as a User
  
 So how does the sniper work, from a user's perspective? Well, you put in the account credentials to the account(s) you want to use, it fetches the authorization token, which allows it the permission to change your username. Then, you input the name you want to snipe, the delay (which will be covered later on) you want to use, and in some snipers, you are able to select what account type you are using (Mojang, Microsoft, Giftcard, etc.)
-## VII. Factors in sniping
+## VII. Factors in Sniping
  
 There are a few factors in sniping: accounts in use, your delay / timing, and luck. Usually suppling more accounts and bettering your timing will outweigh your luck, meaning you have a much higher chance at being successful. 
 Number of accounts is self explanatory. More accounts, more requests, higher probability.
@@ -66,23 +66,29 @@ Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to 
 
 ## VIII. Delay
 
-So if we want to dive into delay deeper, first I have to explain time stamps; the most fundamental mechanic of delay, as it is the foundation for what changes you make to your delay in order to perfect it.
+Let me elaborate what delay really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it is the foundation for what changes you make to your delay in order to perfect it.
+
 Using the aforementioned example again, lets say your requests land at `3:24:19.230` and `3:24:19.300`
 As you want to have them land at `3:24:19.095` and `3:24:19.100`, you will need to increase your delay here so the sniper shoots sooner.
 First let's zoom up and disregard any numbers which aren't necessary for calculating the optimal delay change for this situation:
-(The two requests sent) `...19.230` `...19.300`
-You are **~130 milliseconds** off the best timestamp range with the first request. The second request is **~200 milliseconds** off. It may be best to change according to the second one, so your second request lands at `...19.100` with the first sometime before that.
-Add `200` delay. If your delay before was, for example, `129`, adjust to `329` delay on your next snipe.
+(The two requests sent) `.230` `.300`
+
+You are **~130 milliseconds** off the advised timestamp with the first request. The second request is **~200 milliseconds** off. It may be best to change according to the second one, so your second request lands at `.100` with the first sometime before that.
+Add **200** delay. If your delay before was (for example) **129**, adjust to **329** delay on your next snipe.
+
+Snipe again with your new delay.
 After that, analyze the results. Were they closer to the recommended timestamps? How far, if not precisely on it? Make more changes until your timestamps are on target, or, until you notice you successfully sniping names at another timestamp.
 
-## IX. Time synchronization
+## IX. Time Synchronization
 
-Another way to make your timestamps accurate is by using a time synchronization program. This sets your computer's clock to the closest time possible to xx.000. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. What I mean is; normally if you use, say, 300 delay- sometimes you may get timestamps on xx.218 and other times on xx.113. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as Dimension 4, your timestamps with 300 delay will usually if not always be the same... such as xx.113 (every time) in this example.
+Another way to make your timestamps more accurate is by using a time synchronization program. This sets your computer's clock to the closest to `.0000`. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. 
+
+Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` every time you used **300** delay.
 
 ## X. Sniping with Multiple Accounts
 
 If you're starting to become a more serious sniper, using more than 1 account is essential for higher success rates. If you want to learn more about how to snipe with more than 1 account, be sure to read my [guide on how to snipe with more than 1 account](https://youtu.be/dQw4w9WgXcQ).
-More accounts allow you to send more name change requests to the server. Your probability of success is much higher.
+More accounts allow you to send more name change requests to the server. Your probability of success will be much higher.
 
 ## XI. Sniping Jargon
 
@@ -104,87 +110,122 @@ In sniping there are terms and phrases which are usually shortened versions of t
 
 Now I will explain what each of these is used for in particular.
 
-**Snipe** - verb, to claim a (Minecraft) name as fast as you possibly can, to claim a username the instant it becomes available. Some people confuse this with simply claiming a name, so they would mistakenly say:
+-------------
+# **Snipe** 
+- To claim a (Minecraft) name as fast as you possibly can. Some people confuse this with simply claiming a name (that's available), so they would mistakenly say:
 > I saw this available 4-character name so I sniped it
 
-Which is incorrect because the name was available; you were not competing for ownership of the name, you were not timing your requests, you weren't having to wait until it was available. The correct usage would entail the aforementioned complications:
-> I sniped "JohnSmith" using 10 MFAs. I got it on XX.086
+- Which is incorrect because the name was available; you were not competing for ownership of the name, you were not timing your requests, you weren't having to wait until it was available. The correct usage would entail the aforementioned complications:
+> I sniped "JohnSmith" using 10 MFAs. I got it on `.0865`
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
-**Sniper** - noun, one who snipes names or could refer to the automated sniping bot used to snipe the name.
+# **Sniper** 
+- One who snipes names, or could refer to the automated sniping bot used to snipe the name.
 
-Example 1:
+**Example 1:**
 > I'm an MFA sniper because I dislike SFA sniping.
 
-Example 2:
-> I used my free sniper, MCSniperPY to get the username "Example". I would recommend it, it works amazing!
+**Example 2:**
+> I used my free sniper, MCSniperPY, to get the username "Example". I would recommend it, the sniper works amazing!
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**NFA** - Non-full access account. These are useless, not worth mentioning. Only have credentials to Minecraft account, but the account has security questions which prevent you from accessing the name change page. Only allows you to log in through the launcher.
+# **NFA** 
+```sh 
+* Abbreviation - Non-full Access 
+``` 
+- These are useless for the most part; you have credentials to Minecraft account, **but** the account has security questions which prevent you from accessing the name change page. You are only able to log in through the launcher, not the website. Therefore, you are unable to change the name on the account, so it's ineligible for sniping.
 
-Example:
+**Example:**
 > I have 10 NFAs. One of them I've had for 10 days without any problems.
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**SFA** - Semi-full access account. The name comes from the amount of access you have to it; not very much. You only have the credentials for the Minecraft account, but no access to the email tied to the account. Because you require email access to change the email and add security questions, it's locked on the email which it's currently on.
+# **SFA** 
+```sh 
+* Abbreviation - Semi-full Access 
+``` 
+- The name comes from the amount of access you have to it; not very much. You only have the credentials for the Minecraft account, but no access to the email tied to the account. Because you require email access to change the email and add security questions, it's locked on the email which it's currently on.
 
-SFAs are often frowned upon as they are (usually) obtained from unorthodox methods, and are used solely for practicing / testing delay and other stuff. Typically, if they are used when trying to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
+- SFAs are often frowned upon as they are (usually) obtained from unorthodox methods. They are mostly used for testing delay. Typically, if they are used to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
 
-Example:
+**Example:**
 > I used 30 SFAs to get that name.
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**FA / MFA** - Mail / Full access account. FA and MFA can be used interchangeably as it simply indicates you have full access to the account. Just a normal account, can be a Mojang account or Microsoft. MFAs can be acquired from unconventional places, or via the official [minecraft.net](https://www.minecraft.net/en-us) website. 
+# **FA / MFA**
+```sh 
+* Abbreviation - Mail Full Access
+``` 
+- FA and MFA can be used interchangeably as it simply indicates you have full access to the account. Just a normal account, can be a Mojang account or Microsoft. MFAs can be acquired from unconventional places, or via the official [minecraft.net](https://www.minecraft.net/en-us) website. 
 
-Example:
-> I have 4 MFAs that I haven't changed the name on for months!
+**Example:**
+> I have 4 MFAs that I haven't changed the name on for months! Maybe I can snipe something on them soon.
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**UFA** - Unmigrated full access. These accounts are from long back, as far back as perhaps **2009 - 2010**. In the first Minecraft migration (not the current one from Mojang -> Microsoft) players were asked to migrate their Minecraft account to a Mojang account. Some of these old accounts haven't been migrated yet. Functions mostly like a normal MFA account.
+# **UFA** 
+```sh 
+* Abbreviation - Unmigrated Full Access
+``` 
+- These accounts are from long ago, as far back as perhaps **2009 - 2010**. In the first Minecraft migration (not the current one from Mojang to Microsoft) players were asked to migrate their Minecraft account to a Mojang account. Some of these old accounts haven't been migrated yet. Functions mostly like a normal MFA account.
 > Do note I have little knowledge or experience about UFAs so this is subject to change if I learn more about them.
 
-Example:
+**Example:**
 > This UFA doesn't have a TID, so I won't be able to recover it easily if it gets locked.
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**GC** - Giftcard. This abbreviation stands for giftcard or giftcard account. For example, I used 2 `GCs` to snipe `TissueBox`. Or, I'm a GC sniper (in this case it doesn't mean you "snipe" giftcards, it means you use giftcard accounts to snipe) However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
-- Have no name set
-- Can send 6 name change requests instead of 2
-- Are always Microsoft; there are no Mojang GC accounts
-- Have name change priority (unconfirmed)
+# **GC** 
+```sh 
+* Abbreviation - Giftcard / Giftcard Account
+``` 
+- Almost identical to an MFA. However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
+
+| | |
+|----- | ------ |
+ | |Have no name set| 
+ | |Can send 6 name change requests instead of 2| 
+ | |Are always Microsoft; there are no Mojang GC accounts| 
+ | |Have name change priority `* UNCONFIRMED`| 
+
+**Example:**
+>  I used 2 `GCs` to snipe "TissueBox"
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**MSA** - Microsoft account. A Microsoft account with a redeemed copy of Minecraft with a username already established. Basically an MFA with more security, because Microsoft has 2FA availability.
+# **MSA** 
+```sh 
+* Abbreviation - Microsoft account
+``` 
+- A Microsoft account with a redeemed copy of Minecraft and a username already established. Basically an MFA with more security, because Microsoft has 2FA availability.
 
-Example:
+**Example:**
 > I'm hoping I can migrate my Mojang accounts to MSAs soon, I want to secure them properly.
 
 ᲼᲼᲼᲼᲼᲼
 
 -------------
 
-**Skid** - Enough said.
-Example:
+# **Skid** 
+- Enough said.
+
+**Example:**
 > That's the skid who stole my sniper! 
 
 ᲼᲼᲼᲼᲼᲼
