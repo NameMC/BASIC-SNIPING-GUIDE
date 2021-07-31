@@ -30,7 +30,7 @@ JohnSmith (First name)
 
 The data is generally in unix time format. 3:24:19 PM would be stored as `1627683859`
 
-So the Mojang API has the information when the person changed their name. Then, NameMC detects this change and automatically assumes the username will be available 37 days from the original name change. 30 days to account for the user's name change cooldown, and 7 days for the grace period the name is available for the previous owner only.
+The Mojang API has the exact time a person changes their name. NameMC then detects this change and automatically assumes the username will be available 37 days after the original name change. 30 days to account for the user's name change cooldown, then an addition 7 days for the owner to decide whether they want to reclaim the name or to discard it.
 
 Most snipers locate the drop time for a name via NameMC's API. In some cases though, people in the community have their own APIs for the drop time. 
 
