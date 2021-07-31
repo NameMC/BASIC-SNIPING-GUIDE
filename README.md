@@ -79,24 +79,26 @@ Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to 
 
 # **VIII. Delay**
 
-Let me elaborate what delay really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it is the foundation for what changes you make to your delay in order to perfect it.
+Let me elaborate on what delay really is. First I have to explain timestamps; the most fundamental mechanic of delay, as it's the guide for what changes you should make to your delay in order to perfect it.
 
 Using the aforementioned example again, lets say your requests land at `3:24:19.230` and `3:24:19.300`
 As you want to have them land at `3:24:19.095` and `3:24:19.100`, you will need to increase your delay here so the sniper shoots sooner.
-First let's zoom up and disregard any numbers which aren't necessary for calculating the optimal delay change for this situation:
+First let's disregard any numbers which aren't necessary for calculating the optimal delay change for this situation:
 (The two requests sent) `.230` `.300`
 
 You are **~130 milliseconds** off the advised timestamp with the first request. The second request is **~200 milliseconds** off. It may be best to change according to the second one, so your second request lands at `.100` with the first sometime before that.
-Add **200** delay. If your delay before was (for example) **129**, adjust to **329** delay on your next snipe.
+Add **200** delay. If your delay before was (for example) **129**, adjust it to **329** delay on your next snipe.
 
 Snipe again with your new delay.
 After that, analyze the results. Were they closer to the recommended timestamps? How far, if not precisely on it? Make more changes until your timestamps are on target, or, until you notice you successfully sniping names at another timestamp.
 
+Do note that names don't drop at the same time every time. Even if you successfully get a name on `.012` one time, the same results are not guaranteed on your next snipes.
+
 # **IX. Time Synchronization**
 
-Another way to make your timestamps more accurate is by using a time synchronization program. This sets your computer's clock to the closest to `.0000`. If your time is always consistent, then your delay and timestamps will be consistent for every snipe you use it. 
+Another way to make your timestamps more consistent is by using a time synchronization program. This sets your computer's clock to the closest to `.0000`. If your time is always the same, then your delay and timestamps will be consistent for every snipe you use it. 
 
-Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` every time you used **300** delay.
+Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` nearly every time you use **300** delay. Moreover, API lag may effect the results very slightly each time, so your timestamps may not always correspond with the delay used.
 
 # **X. Sniping with Multiple Accounts**
 
@@ -105,8 +107,8 @@ More accounts allow you to send more name change requests to the server. Your pr
 
 # **XI. Sniping Jargon**
 
-In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you may run in to:
-|What it means | What is usually said instead |
+In sniping there are terms and phrases which are usually shortened versions of their longer counterparts. Below are a few that you will likely run into:
+|EXPANDED | SHORTENED |
 | -------------| ---------------------------|
 |`**MORE INFORMATION BELOW**`| Snipe |
 |`**MORE INFORMATION BELOW**`| Sniper |
@@ -120,14 +122,14 @@ In sniping there are terms and phrases which are usually shortened versions of t
 | The time at which a username is available, after the 37 day period of waiting | Droptime / Drop |
 -------------
 
-Now I will explain what each of these is used for in particular.
+The following list gives an entire explanation of each term and includes examples.
 
 -------------
 ### **Snipe** 
-- To claim a (Minecraft) name as fast as you possibly can. Some people confuse this with simply claiming a name (that's available), so they would mistakenly say:
+- To claim a (Minecraft) name as fast as you possibly can. Some people confuse this with claiming a name (that's available), so they would mistakenly say:
 > I saw this available 4-character name so I sniped it
 
-- Which is incorrect because the name was available; you were not competing for ownership of the name, you were not timing your requests, you weren't having to wait until it was available. The correct usage would entail the aforementioned complications:
+- Which is incorrect because the name was available; you were not competing for ownership of the name, you were not timing your requests, you weren't having to wait until it was available. The correct usage would entail the aforementioned conditions:
 > I sniped "JohnSmith" using 10 MFAs. I got it on `.0865`
 
 ᲼᲼᲼᲼᲼᲼
@@ -150,7 +152,7 @@ Now I will explain what each of these is used for in particular.
 ```sh 
 * Abbreviation - Non-full Access 
 ``` 
-- These are useless for the most part; you have credentials to Minecraft account, **but** the account has security questions which prevent you from accessing the name change page. You are only able to log in through the launcher, not the website. Therefore, you are unable to change the name on the account, so it's ineligible for sniping.
+- These are useless for the most part; you have credentials to Minecraft account, **but** the account has security questions which prevent you from accessing the name change page on [minecraft.net](https://www.minecraft.net/en-us). You are only able to log in through the launcher, not the website. Therefore, you are unable to change the name on the account, so it's ineligible for sniping.
 
 **Example:**
 > I have 10 NFAs. One of them I've had for 10 days without any problems.
@@ -163,9 +165,10 @@ Now I will explain what each of these is used for in particular.
 ```sh 
 * Abbreviation - Semi-full Access 
 ``` 
-- The name comes from the amount of access you have to it; not very much. You only have the credentials for the Minecraft account, but no access to the email tied to the account. Because you require email access to change the email and add security questions, it's locked on the email which it's currently on.
+- SFA accounts have more access than NFAs but less than MFAs. You only have the credentials for the Minecraft account, but no access to the email tied to the account. You require email access to add security questions. Since you need security questions enabled on your account to change the email, it's locked on the email that it's currently on. 
 
-- SFAs are often frowned upon as they are (usually) obtained from unorthodox methods. They are mostly used for testing delay. Typically, if they are used to snipe a valuable name, the name goes to waste as the original owner of the account returns and likely changes off the name. 
+- SFAs are often frowned upon as they are (usually) obtained from unorthodox methods and used maliciously. They are mostly used for testing delay, but may sometimes be used in serious sniping. Some people use upwards of 15 SFAs each snipe, usually yielding success. The name is wasted as SFAs are usually stolen accounts, so the sniper isn't able to ensure the name stays on the account it was sniped on. The original owner often switches their name off the one which was sniped. 
+- Sometimes SFAs aren't stolen, and are instead a result of poor management of credentials by a user. For example, you forgot the password to your email and are unable to recover it or prove your ownership. The only access you have is to your Minecraft account but not your email. In this situation you have an SFA which wasn't stolen.
 
 **Example:**
 > I used 30 SFAs to get that name.
@@ -205,11 +208,11 @@ Now I will explain what each of these is used for in particular.
 ```sh 
 * Abbreviation - Giftcard / Giftcard Account
 ``` 
-- Almost identical to an MFA. However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
+- Nearly identical to an MFA. However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
 
 | | |
 |----- | ------ |
- | |Have no name set| 
+ | |Undetermined name| 
  | |Can send 6 name change requests instead of 2| 
  | |Are always Microsoft; there are no Mojang GC accounts| 
  | |Have name change priority `* UNCONFIRMED`| 
@@ -228,7 +231,7 @@ Now I will explain what each of these is used for in particular.
 - A Microsoft account with a redeemed copy of Minecraft and a username already established. Basically an MFA with more security, because Microsoft has 2FA availability.
 
 **Example:**
-> I'm hoping I can migrate my Mojang accounts to MSAs soon, I want to secure them properly.
+> I'm hoping I can migrate my Mojang accounts to MSAs soon, I want to secure them with two-factor authentication.
 
 ᲼᲼᲼᲼᲼᲼
 
@@ -248,5 +251,5 @@ Now I will explain what each of these is used for in particular.
 
 As described throughout this guide, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
 Don't hesitate to reach out to other server members in sniping servers, some may be willing to help you.
-If you don't want to commit yourself to sniping, there is no urgency to do so. You can continue hand-sniping, however, it will likely yield less results than using an automated bot.
+If you don't want to commit yourself to serious sniping, there is no urgency to do so. You can continue hand-sniping, however, it will likely yield less results than using an automated bot.
 Lastly, I hope you have an amazing time sniping and wish you luck along your journey!
