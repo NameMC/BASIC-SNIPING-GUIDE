@@ -96,7 +96,7 @@ Do note that names don't drop at the same time every time. Even if you successfu
 
 # **IX. Time Synchronization**
 
-Another way to make your timestamps more consistent is by using a time synchronization program. This sets your computer's clock to the closest to `.0000`. If your time is always the same, then your delay and timestamps will be consistent for every snipe you use it. 
+Another way to make your timestamps more consistent is by using a time synchronization program. This sets your computer's clock as closest to `.0000` that it can. If your time is always the same, then your delay and timestamps will be consistent for every snipe you use it. 
 
 Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` nearly every time you use **300** delay. Moreover, API lag may effect the results very slightly each time, so your timestamps may not always correspond with the delay used.
 
