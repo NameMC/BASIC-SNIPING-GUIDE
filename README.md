@@ -98,7 +98,9 @@ Do note that names don't drop at the same time every time. Even if you successfu
 
 Another way to make your timestamps more consistent is by using a time synchronization program. This sets your computer's clock as closest to `.0000` that it can. If your time is always the same, then your delay and timestamps will be consistent for every snipe you use it. 
 
-Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` nearly every time you use **300** delay. Moreover, API lag may effect the results very slightly each time, so your timestamps may not always correspond with the delay used.
+Let me clarify what I mean here. In this example, let's say you use **300** delay: you got the timestamp `.218` on the first snipe, and on the second you got `.113`. This is because your computer's clock isn't the same every time you sniped with that delay. If you use a time synchronization program such as [Dimension 4](http://www.thinkman.com/dimension4/download.htm), your timestamps with **300** delay will **usually, if not always** be the same. For this example in particular, you would get `.113` nearly every time you use **300** delay. 
+Do bare in mind that API lag may effect the results very slightly each time, so your timestamps may not always correspond with the delay used. Depending on the search count of a username, there is a higher chance more people are trying for it along with you. As more requests flood the API, it may take longer for the username to release. 
+Basically, if you were to snipe a 0 search name with the same delay and with time synchronized, you will likely get the same results. On the other hand, ig you have a different delay or the name has lots of traction, your timestamps may not be related to whether your time was synced or not.
 
 # **X. Sniping with Multiple Accounts**
 
@@ -264,4 +266,9 @@ The following list gives an entire explanation of each term and includes example
 As described throughout this guide, snipers have many advantages when used in comparison to traditional hand-sniping. It may be complicated or daunting at first, but after a few weeks or months it becomes a lot easier to understand.
 Don't hesitate to reach out to other server members in sniping servers, some may be willing to help you.
 If you don't want to commit yourself to serious sniping, there is no urgency to do so. You can continue hand-sniping, however, it will likely yield less results than using an automated bot.
+
+Also a note when sniping: *Expect* failure. Your chances of success after just starting to snipe are extremely low. Also take into mind that if 100 people are trying for a name only 1 will walk out with it, 99 will leave unsuccessful. Don't be disappointed if you miss a snipe; there are always more coming ahead, you will eventually get a name you like!
+
+Always be open to improving your delay and other factors which influence the results. Don't just blame the sniper (any sniper can get a good name if you have the right tools and mindset!) There are changes you can make to improve at sniping. The best and most affordable way to increase your chances of success is by using a VPS service to host multiple accounts. Most VPS services include a free trial; [my guide](https://github.com/NameMC/MULTIPLE-ACCOUNT-SNIPING) on VPS sniping covers this. The only thing which costs money is supplying more accounts; that's all.
+
 Lastly, I hope you have an amazing time sniping and wish you luck along your journey!
