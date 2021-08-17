@@ -74,7 +74,7 @@ There are a few factors in sniping: accounts in use, your delay / timing, and lu
 Number of accounts is self explanatory. More accounts, more requests, higher probability.
 
 Delay is a system where you enter how many milliseconds off the droptime you want it to start sending requests. For example, someone has 0 ping so the requests (with 0 delay) would normally send at `xx:xx:xx.000000`. 
-If we were to work off the example above with JohnSmith, the name becomes available at **3:24:19 PM**. Your sniper would normally send requests are that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe for being too early if your delay is 0. 
+If we were to work off the example above with JohnSmith, the name becomes available at `3:24:19 PM`. Your sniper would normally send requests at that exact time, `3:24:19.0000`. However, some names drop later than usual due to API lag and other factors. Because of this, you may miss the snipe for being too early if your delay is 0. 
 Most snipers advise getting timestamps with `xx.095` - `xx.100` as they seem to have the greatest likelihood of success. So if your requests do not match, procedures can be taken to adjust it until it does.
 
 # **VIII. Delay (or Offset)**
