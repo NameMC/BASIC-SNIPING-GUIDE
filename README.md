@@ -212,7 +212,7 @@ The following list gives an entire explanation of each term and includes example
 * Abbreviation - Giftcard / Giftcard Account
 ``` 
 
-##WARNING! As of 5/8/2022 this section on GCs is heavily outdated. Do not rely on this information. I'll update this soon (probably)
+## **WARNING! As of 5/8/2022 this section on GCs is heavily outdated. Do not rely on this information. I'll update this soon (probably)**
 
 - Nearly identical to an MFA. However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
 
