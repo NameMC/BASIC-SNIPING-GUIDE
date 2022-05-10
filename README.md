@@ -212,14 +212,11 @@ The following list gives an entire explanation of each term and includes example
 * Abbreviation - Giftcard / Giftcard Account
 ``` 
 
-## **WARNING! As of 5/8/2022 this section on GCs is heavily outdated. Do not rely on this information. I'll update this soon (probably)**
-
 - Nearly identical to an MFA. However, if we were to look at the characteristics of a giftcard account, they are slightly different from an MFA:
 
 | | |
 |----- | ------ |
  | |Undetermined name| 
- | |Can send 6 name change requests instead of 2| 
  | |Are always Microsoft; there are no Mojang GC accounts| 
  | |Have name change priority `* UNCONFIRMED`| 
 
@@ -245,10 +242,10 @@ The following list gives an entire explanation of each term and includes example
 -------------
 
 ### **Prename Sniping**
-- Prename sniping, also called giftcard sniping, is an advantageous sniping practice which allows you to send 6 name change requests for each account. MFAs are able to send a maximum of 2 name change requests. On the other hand, prename sniping allows up to 6 name change requests because a [different name change endpoint](https://mojang-api-docs.netlify.app/needs-auth/create-profile.html) is used. 
+- Prename sniping, also called giftcard sniping, is a different method of conventional sniping. Previously, prename sniping was better than MFA sniping because it used a [different name change endpoint](https://mojang-api-docs.netlify.app/needs-auth/create-profile.html), allowing the sniper to send 6 name change requests *per gift card*. After 1/1/2022 it appears Mojang has changed this advantageous method. Gift cards now only send 2 requests per card and 6 requests per IP.
 
 **Example:**
-> Prename Sniping has the greatest efficacy of any sniping method available. However, it's very costly to initiate; it depends on Minecraft giftcards or a fresh edition of Minecraft every snipe, which is $26.95 USD.
+> Prename Sniping is efficacious but very costly to initiate; it depends on Minecraft giftcards or a fresh edition of Minecraft every snipe, which is $26.95 USD.
 
 ᲼᲼᲼᲼᲼᲼
 
@@ -272,6 +269,6 @@ If you don't want to commit yourself to serious sniping, there is no urgency to 
 
 Also a note when sniping: *Expect* failure. Your chances of success after just starting to snipe are extremely low. Also take into mind that if 100 people are trying for a name only 1 will walk out with it, 99 will leave unsuccessful. Don't be disappointed if you miss a snipe; there are always more coming ahead, you will eventually get a name you like!
 
-Always be open to improving your delay and other factors which influence the results. Don't just blame the sniper (any sniper can get a good name if you have the right tools and mindset!) There are changes you can make to improve at sniping. The best and most affordable way to increase your chances of success is by using a VPS service to host multiple accounts. Most VPS services include a free trial; [my guide](https://github.com/NameMC/MULTIPLE-ACCOUNT-SNIPING) on VPS sniping covers this. The only thing which costs money is supplying more accounts; that's all.
+Always be open to improving your delay and other factors which influence the results. Don't just blame the sniper (any sniper can get a good name if you have the right tools and mindset!) There are changes you can make to improve at sniping. The best way to increase your chances of success is by using a VPS service to host multiple accounts. As of 2022, this is more difficult to utilize as Mojang requires gift card requests to come from residential IPs, not server IPs, in order to be valid. 
 
 Lastly, I hope you have an amazing time sniping and wish you luck along your journey!
